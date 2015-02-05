@@ -1,0 +1,64 @@
+Sender: LSF System <lsfadmin@a9105>
+Subject: Job 80165403: <./LB2D_kbc_obstac 100 80000 0.08 10 20 10 12 0 1 0 states/h10_kbc_atmos> Exited
+
+Job <./LB2D_kbc_obstac 100 80000 0.08 10 20 10 12 0 1 0 states/h10_kbc_atmos> was submitted from host <brutus2> by user <ulmerb> in cluster <brutus>.
+Job was executed on host(s) <48*a9105>, in queue <pub.8h>, as user <ulmerb> in cluster <brutus>.
+</cluster/home04/math/ulmerb> was used as the home directory.
+</cluster/home04/math/ulmerb/LB_24_01/LB_roughness_production> was used as the working directory.
+Started at Thu Feb  5 10:28:37 2015
+Results reported at Thu Feb  5 10:35:19 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./LB2D_kbc_obstac 100 80000 0.08 10 20 10 12 0 1 0 states/h10_kbc_atmos
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time   :  18964.79 sec.
+    Max Memory :         9 MB
+    Max Swap   :      3246 MB
+
+    Max Processes  :         3
+    Max Threads    :        51
+
+The output (if any) follows:
+
+writing to output dir ./output/kbc/h10/obstac_12
+SHIFT:
+0
+SHIFT:
+1
+SHIFT:
+102
+SHIFT:
+-1
+SHIFT:
+-102
+SHIFT:
+103
+SHIFT:
+101
+SHIFT:
+-103
+SHIFT:
+-101
+=
+=
+]
+rho
+I have read the fucking state file so shut up!
+simulation parameters
+---------------------
+domain: 100 x 200
+Re:     80000
+Vmax:   0.08
+visc:   1e-05
+beta:   0.99994
+
+the averaged initial pertubation is: I_{avg} = 0.0482952
